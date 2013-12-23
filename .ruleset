@@ -37,15 +37,15 @@
       <exclude name="LongVariable"/>
    </rule>
 
-   <rule ref="rulesets/optimizations.xml"/>
-   <rule ref="rulesets/strictexception.xml">
+   <rule ref="rulesets/java/optimizations.xml"/>
+   <rule ref="rulesets/java/strictexception.xml">
       <exclude name="AvoidCatchingNPE"/>
    </rule>
 
    <rule ref="rulesets/java/strings.xml"/>
    <rule ref="rulesets/java/strings.xml/AvoidDuplicateLiterals">
     <properties>
-        <property name="threshold" value="1"/>
+        <property name="maxDuplicateLiterals" value="2" />
     </properties>
    </rule>   
    
