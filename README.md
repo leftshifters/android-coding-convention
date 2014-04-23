@@ -549,19 +549,19 @@ It also helps to use a prefix for the id's based on their usage;. Below are some
 
 LinearLayout id :
 
-        android:id="@+id/searchDetail"
+        android:id="@+id/search_detail"
 
 RelativeLayout id :
 
-        android:id="@+id/searchResults"
+        android:id="@+id/search_results"
 
 FrameLayout id :
 
-        android:id="@+id/houseDetail"
+        android:id="@+id/house_detail"
 
 Fragment id :
 
-        android:id="@+id/houseList"
+        android:id="@+id/house_list"
 
 The same rule applies to naming of id's for input controls. Below are some examples of id's for various input controls;
 
@@ -575,11 +575,11 @@ ImageButton :
 
 EditText :
 
-        android:id="@+id/emailAddress"
+        android:id="@+id/email_address"
 
 TextView :
 
-        android:id="@+id/searchResult"
+        android:id="@+id/search_result"
 
 AutoCompleteTextView :
 
