@@ -609,13 +609,15 @@ And so on....
 
 #### Menu Resources
 
-        menu_<category_name>.xml
+        <category_name>.xml
 
 #### String Resources
 
-        strings_<category_name>.xml
+        <category_name>.xml
 
-        string_arrays_<category_name>.xml
+### Arrays Resources
+        
+        <category_name>.xml
 
 #### Style Resources
 
